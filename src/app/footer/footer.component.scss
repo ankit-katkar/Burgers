@@ -1,0 +1,98 @@
+.container-fluid{
+    height: 370px;
+    background-color: #323231;
+    margin-top: 40px;
+}
+.row{
+    padding: 50px 100px 10px 100px;
+}
+.LogoImage{
+    width: 121px;
+    height: 111px;
+}
+.HeaderText{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+}
+.FooterText{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.FooterImage img{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+.Line{
+    color: white;
+    padding: 0px 100px 0px 100px;
+}
+.copyright{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .row{
+        padding: 50px 40px 10px 40px;
+    }
+    .container-fluid{
+        height: 348px;
+    }
+    .LogoImage{
+        width: 80px;
+        height: 80px;
+    }
+    .HeaderText{
+        font-size: 15px;
+    }
+    .FooterText{
+        font-size: 12px;
+    }
+    .FooterImage img{
+        width: 30px;
+        height: 30px;
+        margin-left: 6px;
+
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .row{
+        padding: 30px 10px 10px 10px;
+    }
+    .container-fluid{
+        height: 450px;
+    }
+    .LogoImage{
+        width: 60px;
+        height: 60px;
+        margin-left: 105px;
+    }
+    .HeaderText{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .FooterText{
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .FooterImage{
+        margin-left: 75px;
+        margin-top: -43px;
+    }
+    .FooterImage img{
+        width: 30px;
+        height: 30px;
+        margin-left: 8px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+  }

@@ -1,0 +1,64 @@
+<div class="backgroundImage">
+    <div class="menuList">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/ourmenu">
+            <img src="../assets/Menu Deal Of The Day image.png" alt="">
+            <p>Deal Of The <br> Day</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/burgers">
+            <img src="../assets/Menu Burgers Image.jpg" alt="">
+            <p >Burgers</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/premiumBurger">
+            <img src="../assets/Menu Premium Burger Image.jpg" alt="">
+            <p style="color: #FF9F05;">Premium <br> Burger</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/fires">
+            <img src="../assets/Menu Fries Image.jpg" alt="">
+            <p>Fries</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/beverages">
+            <img src="../assets/Menu Beverages Image.jpg" alt="">
+            <p>Beverages</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-4">
+          <div class="menu-item" routerLink="/Bestofcombo">
+            <img src="../assets/Menu Best Of Combo Image.jpg" alt="">
+            <p>Best Of <br> Combo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="headerText">
+      <p>Premium Burgers</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12" *ngFor="let list of orderList">
+        <div class="card" >
+          <div class="card-header">
+            <img src="{{list.image}}" alt="">
+          </div>
+          <div class="card-body">
+            <h4>{{list.headerText}}</h4>
+            <p>{{list.footerText}}</p>
+          </div>
+          <div class="card-footer">
+            <span><fa-icon [icon]="rupees"></fa-icon>{{list.price}}</span>
+            <button>ADD +</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  

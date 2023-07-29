@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-sm ">
+ <img class="logo" src="../../assets/Logo.jpg" alt="">
+
+    <form >
+      <input class="form-control" type="text" placeholder="Search Here...">
+    </form>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="home">
+            <img src="../../assets/home icon.png" alt="">
+            HOME
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="ourmenu">
+            <img  src="../../assets/fast-food.png" alt="">
+            OUR MENU 
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" >
+            <img  src="../../assets/user.png" alt="">  
+            LOGIN 
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="franchise">
+            <img src="../../assets/market.png" alt="">  
+            FRANCHISE
+          </a>
+          </li>      
+      </ul>
+
+    </div>
+</nav>
+<router-outlet></router-outlet>
+  
+

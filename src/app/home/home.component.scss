@@ -1,0 +1,232 @@
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}
+.backgroundImage{
+    background-image: url(../../assets/our-menu-white-background.jpg);
+    height: 320px;
+}
+.imageSlider{
+    height: 340px;
+}
+.picsum-img-wrapper img{
+    width: 100%;
+    height: 350px;
+}
+
+.menuList{
+    padding: 40px 100px 0px 100px;
+}
+.menuHeader{
+    color: #000;
+    font-size: 26px;
+    font-family: Lora;
+    font-weight: 700;
+}
+.menunextText{
+    color: #FF9F05;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    float: right;
+}
+
+.menu-item img{
+    width: 126px;
+    height: 126px;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.menu-item p{
+    color: #000;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+    text-align: center;
+}
+.padding{
+    padding: 40px 100px 0px 100px;
+}
+.specialOffer{
+    color: #000;
+    font-size: 26px;
+    font-family: Lora;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card{
+    border: 0px;
+    height: 200px;
+    border-radius: 20px;
+}
+.card-body{
+    padding: 0px;
+    margin: 0px;
+}
+.img-wrapper{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+}
+.card-title{
+    color: #000;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+    max-width: 150px;
+    margin-top: 15px;
+}
+.card-text{
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    max-width: 240px;
+}
+.card-amount fa-icon{
+    color: #000;
+    font-size: 14px;
+    font-family: Lora;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.card-amount{
+    color: #000;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+}
+.card-body button{
+    border-radius: 25px;
+    border: 1px solid #FF9F05;
+    text-align: center;
+    color: #FF9F05;
+    background-color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    width: 68px;
+    height: 26px;
+    margin-left: 80px;
+ }
+ .Exploremenu{
+    border-radius: 25px;
+    background: #FF9F05;
+    width: 251px;
+    height: 45px;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lora;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+ }
+ .card-footer-one{
+    margin-top: 50px;
+ }
+ .card-footer-two{
+    margin-top: 50px;
+ }
+ .card-footer-three{
+    margin-top: 65px;
+ }
+ .two{
+    margin-top: 30px;
+ }
+ .three{
+    margin-top: 30px;
+ }
+ .ourMenu{
+    width: 251px;
+    height: 45px;
+    border-radius: 50px;
+    background: #FF9F05;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lora;
+    font-weight: 700;
+    border: 0px;
+    margin-top: 50px;
+    margin-left: 450px;
+ }
+ .imageOne{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+ .imageTwo{
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ @media only screen and (max-width: 768px) {
+    .menuList{
+        padding: 60px 40px 0px 40px;
+    }
+    .menu-item img{
+        width: 90px;
+        height: 90px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+    .menu-item p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .padding{
+        padding: 40px 40px 0px 40px;
+    }
+    .card-body button{
+        margin-left: 50px;
+     }
+     .card{
+        margin-bottom: 25px;
+     }
+     .ourMenu{
+        margin-left: 230px;
+     }
+  }
+  @media only screen and (max-width: 320px) {
+    .menuList{
+        padding: 30px 40px 0px 40px;
+    }
+    .menu-item img{
+        width: 60px;
+        height: 60px;
+        margin: 0px;
+        margin-top: 15px;
+        border-radius: 50px;
+    }
+    .menuHeader{
+        font-size: 20px;
+    }
+    .menunextText{
+        font-size: 14px;
+    }
+    .menu-item p{
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .specialOffer{
+        font-size: 20px;
+    }
+    .padding{
+        padding: 0px 10px 0px 10px;
+    }
+    .ourMenu{
+        margin-left: 83px;
+        width: 138px;
+        font-size: 10px;
+        height: 36px;
+     }.imageSlider{
+        height: 110px;
+    }
+     .picsum-img-wrapper img{
+        width: 100%;
+        height: 110px;
+    }
+
+  }

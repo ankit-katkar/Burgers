@@ -1,0 +1,155 @@
+.container{
+    padding: 0px 80px 0px 80px;
+}
+.backgroundImage{
+    background-image: url(../../assets/our-menu-white-background.jpg);
+    height: 230px;
+}
+.menuList{
+    padding: 10px 100px 0px 100px;
+}
+.menuHeader{
+    color: #000;
+    font-size: 26px;
+    font-family: Lora;
+    font-weight: 700;
+}
+.menu-item img{
+    width: 126px;
+    height: 126px;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.menu-item p{
+    color: #000;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.headerText{
+    color: #FF9F05;
+    font-size: 30px;
+    font-family: Lora;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card{
+    height: 380px;
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.card-header{
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    border: 0px;
+    text-align: center;
+}
+.card-header img {
+    height: 130px;
+    margin-top: 10px;
+
+}
+.card-body h4{
+    font-size: 20px;
+    font-family: Lora;
+    font-weight: 700;
+    max-width: 200px;
+}
+.card-body p{
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    max-width: 250px;
+    margin-top: 20px;
+}
+.card-footer fa-icon{
+    color: #000;
+    font-size: 15px;
+    font-family: Lora;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.card-footer{
+    color: #000;
+    font-size: 18px;
+    font-family: Lora;
+    font-weight: 700;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+}
+.card-footer button{
+    border-radius: 25px;
+    border: 1px solid #FF9F05;
+    text-align: center;
+    color: #FF9F05;
+    background-color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    width: 68px;
+    height: 26px;
+    float: right;
+
+ }
+
+
+// tablet view
+@media only screen and (max-width: 768px) {
+    .menuList{
+        padding: 10px 40px 0px 40px;
+    }
+    .backgroundImage{
+        height: 190px;
+    }
+    .menu-item img{
+        width: 90px;
+        height: 90px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+    .menu-item p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+     .ourMenu{
+        margin-left: 230px;
+     }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .container{
+        padding: 0px 20px 0px 20px;
+    }
+    .menuList{
+        padding: 10px 40px 0px 40px;
+    }
+    .backgroundImage{
+        height: 280px;
+    }
+    .menu-item img{
+        width: 60px;
+        height: 60px;
+        margin: 0px;
+        margin-top: 15px;
+        border-radius: 50px;
+    }
+    .menu-item p{
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .ourMenu{
+        margin-left: 70px;
+        width: 170px;
+        font-size: 12px;
+     }
+     .headerText{
+        font-size: 30px;
+    }
+     
+  }
